@@ -1,0 +1,213 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.hero {
+    background-color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px 15%;
+    gap: 40px; 
+    height: 35vh;   
+}
+
+
+ul {
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    list-style-type: none;
+}
+
+
+.firstHeader {
+    display: flex;
+    justify-content: space-between;
+    gap: 50vh;
+}
+
+.firstHeader, .footer {
+    flex-direction: row;
+}
+
+.headerLogo {
+    font-size: 24px;
+}
+
+.secondHeader {
+    display: flex;
+    gap: 10px;
+    height: 300px;
+    width: 70%;
+}
+
+.text {
+    flex-flow: column wrap;
+    flex-basis: 30%;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.title, .headerLogo {
+    color: #F9FAF8;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+    max-height: 20vh;
+    max-width: 75%;
+}
+
+.signUp-btn{
+    align-self: flex-start;
+    padding: 5px;
+    margin: 5px;
+    width: 80px;
+    background-color: #3882F6;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border-radius: 10%;
+}
+
+.placeholder, .text {
+    display: flex;
+    flex-basis: 50%;
+}
+
+.placeholder {
+    height: 100%;
+    width: auto;
+    background-color: gray;
+    align-items: center;
+    justify-content: center;
+}
+
+.information {
+    padding: 15px 0px 100px 0px;
+}
+
+.informationTitle {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: 900;
+    margin: 32px;
+    color: #1f2937;
+}
+
+.informationText {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10vh;
+}
+
+.square-red {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 125px;
+    height: 125px;
+    border: rgb(9, 124, 255) 2px solid;
+    border-radius: 15%;
+}
+
+.p-text {
+    max-width: 125px;
+}
+
+.quoteSection {
+    background-color: #E5E7EB;
+    padding: 15px 0px 100px 0px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+.quoteText {
+    flex-basis: 150px;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    max-width: 700px;
+    padding: 200px 0px 0px 0px;
+}
+
+.quotePerson {
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.callToActionSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    padding: 80px;
+    
+}
+
+.callToAction {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 70%;
+    border-radius: 2%;
+    background-color: #3882F6;
+    gap: 30%;
+}
+
+.callToAction-text {
+    color: #fff;
+    font-size: 20px;
+}
+
+.callToAction-text_1 {
+    font-weight: bold;
+    padding-bottom: 2px;
+}
+
+.callToAction-btn {
+    height: 50px;
+    width: 120px;
+    background-color: #3882F6;
+    border-radius: 10%;
+    border: 1px solid #fff;
+    font-weight: 700;
+    color: #fff;
+}
+
+.footer {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    background-color: #1f2937;
+}
